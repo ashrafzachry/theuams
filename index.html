@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>U.A.M.S | Unauthorized Access Monitoring System</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <style>
+    header { background-color: #0d6efd; color: white; padding: 100px 0; text-align: center; }
+    section { padding: 80px 0; }
+    .bg-lightblue { background-color: #e9f2ff; }
+    .btn-primary { background-color: #0d6efd; border-color: #0d6efd; }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">U.A.M.S</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#intro">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+        <li class="nav-item"><a class="nav-link" href="#support">Support</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="intro">
+  <div class="container">
+    <h1 class="display-4 fw-bold mb-3">Stop Unauthorized USB Access — Instantly.</h1>
+    <p class="lead mb-4">U.A.M.S uses symbolic AI + Windows Defender signals to allow/deny USB devices in real-time.</p>
+    <a href="#features" class="btn btn-light btn-lg m-2">Explore Features</a>
+    <a href="#download" class="btn btn-outline-light btn-lg m-2">Download Demo</a>
+    <p class="mt-3"><em>This is a Final Year Project demo — not a commercial product.</em></p>
+  </div>
+</header>
+
+<!-- Features -->
+<section id="features" class="bg-lightblue text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-5">Why U.A.M.S?</h2>
+    <div class="row text-start">
+      <div class="col-md-4 mb-4">
+        <h5>AI-Powered Decisions</h5>
+        <p>Symbolic AI analyzes Windows Defender scan results to make instant allow/deny decisions without human intervention.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>SMS Alerts</h5>
+        <p>Receive instant SMS notifications when unauthorized USB devices are detected or blocked.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>Smart Whitelisting</h5>
+        <p>Granular control with custom rules, device fingerprinting, and automatic policy enforcement.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>Centralized Dashboard</h5>
+        <p>Monitor all USB activity, view threat logs, and manage policies from a single interface.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How It Works -->
+<section id="how-it-works" class="text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-5">How It Works</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h5>01 Device Detection</h5>
+        <p>Windows agent detects USB device insertion and captures device information.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>02 AI Analysis</h5>
+        <p>Symbolic AI processes Windows Defender scan results and applies security policies.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>03 Real-time Action</h5>
+        <p>Device is instantly allowed or blocked with SMS notification sent to administrators.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="bg-lightblue text-start">
+  <div class="container">
+    <h2 class="fw-bold mb-5 text-center">Frequently Asked Questions</h2>
+    <h5>How does U.A.M.S differ from traditional USB blockers?</h5>
+    <p>U.A.M.S uses symbolic AI to make intelligent decisions based on Windows Defender scan results.</p>
+
+    <h5>Does it work offline?</h5>
+    <p>Yes, the Windows agent caches policies and can operate offline, but AI and SMS features require internet.</p>
+
+    <h5>What Windows versions are supported?</h5>
+    <p>Windows 10 and 11 with Windows Defender enabled.</p>
+
+    <h5>Can I customize the AI decision rules?</h5>
+    <p>Yes, the dashboard allows configuration of custom rules, thresholds, and exceptions.</p>
+
+    <h5>Is this ready for production use?</h5>
+    <p>No. This is a Final Year Project demonstration for educational purposes only.</p>
+  </div>
+</section>
+
+<!-- Download -->
+<section id="download" class="text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">Download Demo Software</h2>
+    <p class="lead mb-4">Get the latest version of U.A.M.S for Windows (Demo Only).</p>
+    <a href="UAMS_Setup.exe" download class="btn btn-primary btn-lg">Download Now</a>
+  </div>
+</section>
+
+<!-- Support -->
+<section id="support" class="bg-lightblue text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">Need Help or Have Questions?</h2>
+    <p class="lead mb-4">Our support team is here to help you understand and explore U.A.M.S capabilities.</p>
+    <a href="mailto:support@theuams.com" class="btn btn-primary m-2">Contact Support</a>
+    <a href="#faq" class="btn btn-outline-primary m-2">View FAQ</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-light text-center py-4">
+  <p class="text-muted small mb-0">© 2025 U.A.M.S (FYP Project) — Academic Use Only</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
